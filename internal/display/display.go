@@ -193,8 +193,8 @@ func AllTable(rows []ProjectRow, total *parser.Stats, watchMode bool) {
 	tableTop()
 
 	for _, r := range rows {
-		status := ""
-		sc := ""
+		status := "○ offline"
+		sc := dim
 		if r.Active {
 			status = "● active"
 			sc = green
