@@ -1,0 +1,16 @@
+# Binaries
+claude-watch
+/claude-watch
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+/bin/
+/dist/
